@@ -1,0 +1,120 @@
+body{
+    background: #E5E5E5;
+}
+
+.navbar-brand{
+  font-weight: bold;
+}
+.nav-item{
+  font-weight: 500;
+}
+ .custom-text-div{
+    padding-top: 50px;
+ }
+/* srction 5 code  */
+.custom-prent-div{
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.custom-single-div{
+  text-align: center;
+}  
+.custom-single-div p{
+  color: #6C6C6C;
+
+
+}
+
+/* section 6 */
+.custom-h3{
+    width: 400px;
+    padding: 30px 0 ;
+     /* margin-left: 400px; */
+     margin: auto;
+}
+.package-card.hot {
+  background-color: #ff9800; /* orange রঙ */
+  color: white;
+  position: relative;
+  transform: scale(1.1);
+}
+
+
+
+ 
+
+   
+    .package-card {
+      border-radius: 15px;
+      padding: 30px 20px;
+      background-color: #f8f9fa;
+      transition: 0.3s ease;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+
+    .package-card.hot {
+      background: #3F87F5;
+      color: white;
+      position: relative;
+    }
+
+    .package-card.hot .badge {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: red;
+    }
+
+    .package-title {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .price {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    .feature-list li {
+      margin-bottom: 10px;
+    }
+
+    .choose-btn {
+      margin-top: 25px;
+      background:#f0ebef;
+      border: none;
+      padding: 10px 50px;
+      border-radius: 40px;
+      font-weight: bold;
+    }
+
+.prent{
+  display: flex;
+  background: #000;
+  justify-content: space-between;
+  padding:  20px 50px;
+  margin-top: 50px;
+}
+.prent p{
+  margin-top: 50px;
+  color: gray;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 800px){
+   .package-card.hot {
+    transform: scale(1);
+   }
+}
+@media only screen and (max-width: 500px){
+   .prent{
+    display: block;
+   }
+}
